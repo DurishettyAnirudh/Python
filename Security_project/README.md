@@ -68,7 +68,7 @@ This project is a security monitoring system designed to detect unauthorized acc
 │   git checkout    
 ```
 
-1. Run `setup.py` to configure passwords and email settings.
+1. Install the requirements and configure email and password
 2. Execute `trigger.py` to start monitoring security events.
 3. Ensure `sender.py` has access to SMTP credentials.
 4. The system will log security events, capture images, and send alerts automatically.
