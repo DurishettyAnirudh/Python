@@ -61,10 +61,10 @@ This project is a security monitoring system designed to detect unauthorized acc
 
 ## **How to Set Up**
 ```
-│   git clone --no-checkout https://github.com/user/repo.git
-│   cd repo
+│   git clone --no-checkout https://github.com/DurishettyAnirudh/Python.git
+│   cd python
 │   git sparse-checkout init --cone
-│   git sparse-checkout set src
+│   git sparse-checkout set Security_project
 │   git checkout    
 ```
 
