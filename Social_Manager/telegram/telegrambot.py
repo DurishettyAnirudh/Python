@@ -3,9 +3,9 @@ import telegram
 import mysql.connector
 import sys
 import os
+import KEY from token
 
-
-TOKEN = "7099822791:AAH7F1oZPEZkT3obxjVE3bZ5CtHc2l2tc5U"
+TOKEN = KEY
 chat_id = '-4269996897'
 
 # Channel ID Sample: -1001829542722

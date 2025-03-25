@@ -1,4 +1,0 @@
-setuptools
-numpy
-cv2
-winrt
