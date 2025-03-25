@@ -60,15 +60,14 @@ This project is a security monitoring system designed to detect unauthorized acc
 - Stores the recipient email address for receiving alerts.
 
 ## **How to Set Up**
+```
+│   git clone --no-checkout https://github.com/user/repo.git
+│   cd repo
+│   git sparse-checkout init --cone
+│   git sparse-checkout set src
+│   git checkout    
+```
 
-### `Git Commands to clone this particular directory`
-'''
-git clone --no-checkout https://github.com/user/repo.git
-cd repo
-git sparse-checkout init --cone
-git sparse-checkout set src
-git checkout
-'''
 1. Run `setup.py` to configure passwords and email settings.
 2. Execute `trigger.py` to start monitoring security events.
 3. Ensure `sender.py` has access to SMTP credentials.
