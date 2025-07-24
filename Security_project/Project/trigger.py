@@ -4,7 +4,6 @@ import re
 import time
 import os
 import sender
-import setup
 count = 0
 
 
